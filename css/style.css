@@ -252,4 +252,61 @@
     margin-top: 30px;
     font-weight: bold;
 }
+
+/*--------------------------------FOOTER----------------------------------------*/
+
+.footer {
+    margin-top: 150px;
+    background: #f5f6fc;
+}
     
+.payment, .insta-img, .app-download {
+    margin: 50px auto;
+}
+
+.payment img {
+    width: 300px;
+    cursor: pointer;
+    height: 145px;
+}
+
+.insta-img img {
+    width: 75px;
+    padding: 5px;
+    height: 75px;
+    cursor: pointer;
+}
+
+.app-download img {
+    width: 200px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.footer h5 {
+    margin-bottom: 45px;
+}
+
+.footer h5::before {
+    content: '';
+    width: 70px;
+    height: 3px;
+    background: #4f74e8;
+    top: 80px;
+    position: absolute;
+}
+
+.footer-icons {
+    text-align: right;
+    margin-right: 120px;
+}
+
+.footer-icons .fa {
+    margin: 0 10px auto;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.copyright {
+    margin-left: 115px;
+}
